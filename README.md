@@ -1,4 +1,4 @@
-**Link to Webapp**: **<a href="http://greenhouseapp.s3-website.us-east-2.amazonaws.com" target="_blank">DnD Monster Generator</a>**
+**Link to Webapp**: **<a href="http://greenhouseapp.s3-website.us-east-2.amazonaws.com" target="_blank">Greenhouse Monitoring Station</a>**
 ==============================================
 Greenhouse Real-Time Data Stream & Predictions
 =============================================
