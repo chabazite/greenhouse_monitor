@@ -62,9 +62,9 @@ Greenhouse Real-Time Data Stream & Predictions
 <summary>Show/Hide</summary>
 <br>
     
-![AWS Architecture](/images/WeatherStation.jpg)
+![AWS Architecture](/images/WeatherStation.png)
 
-
+<img style="margin: 10px" src="/images/WeatherStation.png" alt="HTML5" height="50" />  
       
     ├──AWS
         ├── IOT CORE
