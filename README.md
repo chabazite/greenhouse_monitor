@@ -72,6 +72,7 @@ The project is more than a hobby; it's a personal exploration into how technolog
         ├── IOT CORE
         ├── Kinesis Data Streams
         ├── Kinesis Firehose
+        ├── Managed Service for Apache Flink
         ├── S3
         ├── Sagemaker
         |    ├── DeepAR
