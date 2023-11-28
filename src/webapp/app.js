@@ -19,7 +19,7 @@ ws.onmessage = (event) => {
         document.getElementById('humidity').textContent = data.humidity;
         document.getElementById('temperature').textContent = data.temperature.toFixed(2);
         document.getElementById('datetime').textContent = data.datetime;
-        document.getElementById('prediction').textContent = data.prediction.toFixed(2);
+        document.getElementById('prediction').textContent = prediction.max_mean.toFixed(2);
     } catch (error) {
         console.error('Error parsing WebSocket data:', error);
     }
