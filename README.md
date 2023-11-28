@@ -18,11 +18,9 @@ The project is more than a hobby; it's a personal exploration into how technolog
   <summary>Show/Hide</summary>
   <br>
  
-1. [ File Descriptions ](#File_Description)
+1. [ Project Organization ](#File_Description)
 2. [ Technologies Used ](#Technologies_Used)    
-3. [ Structure ](#Structure)
-4. [ Evaluation ](#Evaluation)
-5. [ Future Improvements ](#Future_Improvements)
+3. [ Future Improvements ](#Future_Improvements)
 
 </details>
 
