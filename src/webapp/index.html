@@ -5,18 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Real-Time Data Display</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 20px; }
-        .data-display { margin-top: 20px; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+        }
+
+        h1 {
+            background-color: #007bff;
+            color: #fff;
+            margin: 0;
+            padding: 20px 0;
+        }
+
+        .data-display {
+            background-color: #fff;
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        span {
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
     <h1>Real-Time IoT Data</h1>
     <div class="data-display">
-        <p>Heat Index: <span id="heat-index">-</span></p>
-        <p>Humidity: <span id="humidity">-</span></p>
-        <p>Temperature: <span id="temperature">-</span></p>
-        <p>Datetime: <span id="datetime">-</span></p>
-        <p>Max Temp in the next 30 Minutes: <span id="prediction">-</span></p>
+        <p>Heat Index (updates every second): <span id="heat-index">-</span></p>
+        <p>Humidity (updates every second): <span id="humidity">-</span></p>
+        <p>Temperature (updates every second): <span id="temperature">-</span></p>
+        <p>Sample Time (UTC) : <span id="datetime">-</span></p>
+        <p> Real Time Clock (UTC): <span id="real-time-clock"></span></p>
+        <p>Max Temp in the next 30 Minutes (updates every minute): <span id="prediction">-</span></p>
+
     </div>
 
     <!-- Link to the JavaScript file -->
